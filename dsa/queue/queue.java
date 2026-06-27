@@ -64,5 +64,6 @@ public class queue{
         obj.disp();
         obj.dequeue();
         obj.disp();
+        obj.peek();
     }
 }
