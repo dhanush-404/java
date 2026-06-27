@@ -45,7 +45,7 @@ public class queue{
         }
     }
     void peek(){
-
+        System.out.println("Rear Element : "+queue[rear]);
     }
     void disp(){
         System.out.print("\nfront->");
