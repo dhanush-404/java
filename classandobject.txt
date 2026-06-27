@@ -1,0 +1,41 @@
+Class and Object :
+	In java a class is a blueprint for creating objects,and an object is an instance of a class.
+	
+	A class defines:
+		Attributes (variables/data)
+		Methods (functions/behaviour)
+	Object :
+		An object is created from a class using the new keyword.
+	
+	Syntax:
+	class <classname>{
+		//variables (Data members)
+		//Methods (member functions)
+		
+	}
+	//object creation syntax:
+	// <class name> <object name> = new <class name>();
+	
+	e.g :
+	
+	class car{
+		String brand;
+		String color;
+		int speed;
+		void disp(){
+			System.out.println("Brand : "+brand);
+			System.out.println("Color : "+color);
+			System.out.println("Speed : "+speed+" km/hr");
+		}
+		void start(){
+			System.out.println(brand+" car is starting.");
+		}
+		void stop(){
+			System.out.println(brand+" car is stopped.");
+		}
+	}
+	public class main{
+		public static void main(String args[]){
+			 
+		}
+	}
